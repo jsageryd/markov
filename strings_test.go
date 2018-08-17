@@ -1,6 +1,7 @@
 package markov
 
 import (
+	"bytes"
 	"fmt"
 	"strings"
 	"testing"
@@ -133,6 +134,38 @@ func TestStringsChain(t *testing.T) {
 				}
 			}
 		}
+	}
+}
+
+func TestStringsChain_ImportExportState(t *testing.T) {
+	var buf bytes.Buffer
+
+	exported := NewStringsChain(2, 0)
+
+	exported.Feed([]string{"foo", "bar", "baz"})
+	exported.Feed([]string{"bar", "baz", "foo"})
+	exported.Feed([]string{"baz", "foo", "bar"})
+
+	if err := exported.ExportState(&buf); err != nil {
+		t.Fatalf("unexpected error: %v", err)
+	}
+
+	imported := NewStringsChain(0, 0)
+
+	if err := imported.ImportState(&buf); err != nil {
+		t.Fatalf("unexpected error: %v", err)
+	}
+
+	if got, want := imported.order, exported.order; got != want {
+		t.Errorf("imported.order = %d, want %d", got, want)
+	}
+
+	if got, want := len(imported.starters), len(exported.starters); got != want {
+		t.Errorf("imported %d starters, want %d", got, want)
+	}
+
+	if got, want := len(imported.transitions), len(exported.transitions); got != want {
+		t.Errorf("imported %d transitions keys, want %d", got, want)
 	}
 }
 

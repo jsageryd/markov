@@ -1,7 +1,9 @@
 package markov
 
 import (
+	"encoding/gob"
 	"fmt"
+	"io"
 	"math/rand"
 	"sort"
 	"strings"
@@ -70,4 +72,67 @@ func (c *StringsChain) String() string {
 		b.WriteString(fmt.Sprintf("\n[%s] -> [%s]", key, val))
 	}
 	return b.String()
+}
+
+// ExportState exports the state of the chain. The state of the PRNG is not
+// exported.
+func (c *StringsChain) ExportState(w io.Writer) error {
+	s := struct {
+		Order       int
+		Starters    map[string]int
+		Transitions map[string]map[string]int
+	}{
+		Order:       c.order,
+		Starters:    make(map[string]int),
+		Transitions: make(map[string]map[string]int),
+	}
+
+	for n := range c.starters {
+		s.Starters[strings.Join(c.starters[n], sep)]++
+	}
+
+	for k, v := range c.transitions {
+		if _, ok := s.Transitions[k]; !ok {
+			s.Transitions[k] = make(map[string]int)
+		}
+		for n := range v {
+			s.Transitions[k][v[n]]++
+		}
+	}
+
+	return gob.NewEncoder(w).Encode(&s)
+}
+
+// ImportState imports the given state. The state of the PRNG is unchanged.
+func (c *StringsChain) ImportState(r io.Reader) error {
+	var s struct {
+		Order       int
+		Starters    map[string]int
+		Transitions map[string]map[string]int
+	}
+
+	if err := gob.NewDecoder(r).Decode(&s); err != nil {
+		return err
+	}
+
+	c.order = s.Order
+	c.starters = make([][]string, 0)
+	c.transitions = make(map[string][]string)
+
+	for k, v := range s.Starters {
+		x := strings.Split(k, sep)
+		for n := 0; n < v; n++ {
+			c.starters = append(c.starters, x)
+		}
+	}
+
+	for k, v := range s.Transitions {
+		for kk, vv := range v {
+			for n := 0; n < vv; n++ {
+				c.transitions[k] = append(c.transitions[k], kk)
+			}
+		}
+	}
+
+	return nil
 }
