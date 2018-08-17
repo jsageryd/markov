@@ -6,6 +6,56 @@
 
 Markov chains with configurable order and random seed.
 
+## Installation
+### Command-line tool
+```
+go get -u -v github.com/jsageryd/markov/cmd/markov
+```
+
+### Package
+```
+go get -u -v github.com/jsageryd/markov
+```
+
+## Usage
+### Command-line tool
+See the readme at [cmd/markov](cmd/markov).
+
+### Package
+```go
+package main
+
+import (
+	"fmt"
+	"strings"
+
+	"github.com/jsageryd/markov"
+)
+
+func main() {
+	words := []string{
+		"albatross",
+		"alligator",
+		"antelope",
+	}
+
+	c := markov.NewStringsChain(2, 0)
+
+	for _, s := range words {
+		c.Feed(strings.Split(s, ""))
+	}
+
+	for n := 0; n < 3; n++ {
+		fmt.Println(strings.Join(c.Generate(), ""))
+	}
+}
+```
+```
+albator
+antelope
+alligatross
+```
+
 ## License
 Copyright (c) 2018 Johan Sageryd <j@1616.se>
 
