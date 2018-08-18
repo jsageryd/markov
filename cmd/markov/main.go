@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jsageryd/markov"
+	"github.com/jsageryd/markov/markov"
 )
 
 func main() {

@@ -1,16 +1,49 @@
-# Markov
+# markov
 
-[![Build Status](https://travis-ci.com/jsageryd/markov.svg?branch=master)](https://travis-ci.com/jsageryd/markov)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jsageryd/markov)](https://goreportcard.com/report/github.com/jsageryd/markov)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/jsageryd/markov/markov)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](#)
 
-Markov chains with configurable order and random seed.
+This package generates markov string sequences.
 
-## Packages
-- **[markov](markov)** generates string sequences
+## Installation
+```
+go get -u -v github.com/jsageryd/markov/markov
+```
 
-## Command-line tools
-- **[cmd/markov](cmd/markov)**
+## Usage
+```go
+package main
+
+import (
+	"fmt"
+	"strings"
+
+	"github.com/jsageryd/markov/markov"
+)
+
+func main() {
+	words := []string{
+		"albatross",
+		"alligator",
+		"antelope",
+	}
+
+	c := markov.NewStringsChain(2, 0)
+
+	for _, s := range words {
+		c.Feed(strings.Split(s, ""))
+	}
+
+	for n := 0; n < 3; n++ {
+		fmt.Println(strings.Join(c.Generate(), ""))
+	}
+}
+```
+```
+albator
+antelope
+alligatross
+```
 
 ## License
 Copyright (c) 2018 Johan Sageryd <j@1616.se>
