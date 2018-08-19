@@ -170,7 +170,6 @@ Abdalkarim
 Abdalla
 Abdallah
 Abdallatif
-ABDALLE
 Abdalle Ahmed
 Abdalmasih
 Abdalqadir
@@ -8317,7 +8316,6 @@ Avsar
 Awuku
 Awwad
 Ax
-Ax:Son Johnson
 Axaeus
 Axander
 Axberg
@@ -10835,7 +10833,6 @@ Berchtold
 Bercil
 Bercsényi
 Berdén
-Berdenis VanBerlekom
 Bere
 Berefelt
 Berehe
@@ -11246,7 +11243,6 @@ Bernaba
 Bernacki
 Bernad
 Bernadotte
-Bernadotte afWisborg
 Bernal
 Bernald
 Bernales
@@ -11337,7 +11333,6 @@ Bernhard
 Bernhardsen
 Bernhardson
 Bernhardsson
-BernhardssonSandstén
 Bernhardt
 Bernhardtson
 Bernhardtz
@@ -12973,7 +12968,6 @@ Björnstam
 Björnstedt
 Björnstjerna
 Björnström
-BjörnströmSteffanson
 Björnståhl
 Björnsund
 Björnsvik
@@ -13080,7 +13074,6 @@ Blanckert
 Blanco
 Blandford
 Blandin
-BLANIA
 Blank
 Blanke
 Blankenburg
@@ -17248,8 +17241,7 @@ Carlfors
 Carlgren
 Carlhed
 Carlheim
-Carlheim-Gyllenskiöl
-CarlheimGyllenskiöld
+Carlheim-Gyllenskiöld
 Carlheim-Gyllensköld
 Carlheim-Müller
 Carlheim-Strömstéen
@@ -17681,8 +17673,6 @@ Cederhage
 Cederhammar
 Cederhill
 Cederholm
-CederholmSchmalensée
-CederholmSchmalensse
 Cederhorn
 Cederhöjd
 Cederhök
@@ -19402,22 +19392,21 @@ Cöklü
 Cömert
 Cömlek
 Cöster
-D Agostino
-D´Adda
-D´Agostino
-D´Ailly
-D´Alessandro
-D´Amico
-D´Amore
-D´Angelo
-D´Arcy
-D´Arienzo
-D´Aubigné
-D´Elia
-D´Errico
-D´Este
-D´Orto
-D´Souza
+D'Adda
+D'Agostino
+D'Ailly
+D'Alessandro
+D'Amico
+D'Amore
+D'Angelo
+D'Arcy
+D'Arienzo
+D'Aubigné
+D'Elia
+D'Errico
+D'Este
+D'Orto
+D'Souza
 Da Costa
 Da Cruz
 Da Cunha
@@ -19967,7 +19956,6 @@ Danborg
 Danbrink
 Danciu
 Danckwardt
-DanckwardtLillieströ
 Dancu
 Dandache
 Dandal
@@ -20268,7 +20256,6 @@ Datmo
 Daton
 Datta
 Dau
-DaublebskyvonSternec
 Daud
 Daudi
 Daugaard
@@ -20683,7 +20670,6 @@ Dejfors
 Dejke
 Dejler
 Dejman
-DeJoussineauDeTourdo
 Dejus
 Dekan
 Dekany
@@ -20702,7 +20688,7 @@ Del Gaiso
 Del Pino
 Del Rosario
 del Valle
-Del´Nero
+Del'Nero
 Dela
 Dela Cruz
 Delac
@@ -21923,7 +21909,6 @@ Dorn
 Dornbusch
 Dornell
 Dornerus
-DornonvilleDeLa Cour
 Doroci
 Doroftei
 Dorph
@@ -22932,7 +22917,6 @@ Ebrahim Zadeh Saadat
 Ebrahimi
 Ebrahimzada
 Ebrahimzadeh
-Ebrahimzadeh Pirsha.
 Ebriek
 Ebrin
 Ebringer
@@ -24453,7 +24437,6 @@ El-Achkar
 Elahi
 El-Ahmad
 Elala
-ElAli
 El-Ali
 Elalmis
 El-Alti
@@ -26810,7 +26793,6 @@ Fakt
 Faktus
 Fala
 Falah
-Falah Muslim Al-H.
 Falaha
 Falander
 Falang
@@ -32832,7 +32814,6 @@ Grawem
 Gravemo
 Grave-Müller
 Gravenfors
-Gravenhorst-Lövenst.
 Graversen
 Gravert
 Gravesen
@@ -34753,7 +34734,6 @@ Haav
 Haavik
 Haavisto
 Habach
-HABAINY
 Habak
 Habal
 Habari
@@ -34790,7 +34770,6 @@ Habimana
 Habo
 Habonimana
 Haborn
-haboush
 Habra
 Habt
 Habtab
@@ -35792,7 +35771,6 @@ Hamdani
 Hamdar
 Hamdard
 Hamde
-HAMDI
 Hamdo
 Hamdon
 Hamdoon
@@ -36961,7 +36939,6 @@ Havander
 Hawara
 Hawari
 Havas
-HAWAS
 Hawash
 Havasi
 Havaszadeh
@@ -39619,7 +39596,6 @@ Holmstens
 Holmstig
 Holmstrand
 Holmström
-HolmströmVanDerWeyde
 Holmsved
 Holmsäter
 Holmudd
@@ -42323,7 +42299,6 @@ Ishaq
 Ishaya
 Isheden
 Isherwood
-ISHFAQ
 Ishida
 Ishihara
 Ishii
@@ -43671,7 +43646,6 @@ Jasar
 Jasaragic
 Jasaraj
 Jasarevic
-JASARI
 Jasarovic
 Jasarovski
 Jasek
@@ -44724,7 +44698,6 @@ Johansson-Kask
 Johansson-Martis
 Johansson-Näslund
 Johansson-Rova
-JohanssonVaaranpelto
 Johansson-Wiippa
 Johanzon
 Johar
@@ -52990,7 +52963,7 @@ Köylü
 Köylüoglu
 Kööhler
 Kööpikkä
-L´Estrade
+L'Estrade
 La
 La Carrubba
 La Fleur
@@ -58198,7 +58171,7 @@ Lööv
 Lööw
 Lööwf
 M Amin
-M´Bye
+M'Bye
 Ma
 Maache
 Maack
@@ -58549,7 +58522,6 @@ Mahdawi
 Mahde
 Mahdessian
 Mahdi
-MahdiHussainAlShamar
 Mahdy
 Maher
 Maheshwari
@@ -60355,60 +60327,12 @@ Mbunga
 Mbuta
 Mbuyi
 Mbye
-Mc Allister
-Mc Bride
-Mc Cabe
-Mc Cann
-Mc Carthy
-Mc Cartney
-Mc Connachie
-Mc Corkindale
-Mc Cormack
-Mc Cormick
-Mc Coy
-Mc Cullough
-Mc Daniel
-Mc Donagh
-Mc Donald
-Mc Donough
-Mc Dowell
-Mc Gee
-Mc Geough
-Mc Ginley
-Mc Glynn
-Mc Gowan
-Mc Grath
-Mc Guinness
-Mc Guire
-Mc Hugh
-Mc Inerney
-Mc Intosh
-Mc Intyre
-Mc Kay
-Mc Kenna
-Mc Kenzie
-Mc Kinley
-Mc Kinnon
-Mc Knight
-Mc Laughlin
-Mc Lean
-Mc Leod
-Mc Loughlin
-Mc Mahon
-Mc Manus
-Mc Million
-Mc Namara
-Mc Neil
-Mc Pherson
-Mc Queen
-Mc Shane
-Mc Vey
 McAllister
 McArdle
 McArthur
 McBride
 McCabe
-Mccallum
+McCallum
 McCann
 McCarthy
 McConnell
@@ -60432,7 +60356,7 @@ McIntosh
 McIntyre
 McKay
 McKee
-Mckenna
+McKenna
 McKenzie
 McKie
 McKnight
@@ -60442,7 +60366,7 @@ McLaughlin
 McLean
 McLellan
 McLeod
-Mcloughlin
+McLoughlin
 McMahon
 McManus
 McNamee
@@ -62429,7 +62353,6 @@ Montes
 Montéus
 Montgomerie
 Montgomery
-Montgomery-Cederh.
 Monthan
 Montheli
 Monti
@@ -62749,7 +62672,6 @@ Mourtada
 Mourujärvi
 Mousa
 Mousalli
-MousaMahal Al-Absawi
 Mousavi
 Mousawi
 Mouse
@@ -63846,8 +63768,8 @@ Möstl
 Möter
 Möttus
 Möttönen
-N´Diaye
-N´Guessan
+N'Diaye
+N'Guessan
 Na
 Naalisvaara
 Naama
@@ -63997,7 +63919,7 @@ Naimi
 Naing
 Nair
 Naisan
-Nait M´Bark
+Nait M'Bark
 Naizghi
 Najaf
 Najafi
@@ -66681,35 +66603,32 @@ Nöstdal
 Nöteberg
 Nöu
 Nööjd
-O Connor
-O Donnell
-O Neill
-O´Brien
-O´Callaghan
-O´Connell
-O´Connor
-O´Donnell
-O´Donoghue
-O´Dowd
-O´Driscoll
-O´Dwyer
-O´Gorman
-O´Halloran
-O´Hara
-O´Keefe
-O´Keeffe
-O´Konor
-O´Leary
-O´Loughlin
-O´Mahony
-O´Malley
-O´Neill
-O´Regan
-O´Reilly
-O´Rourke
-O´Shea
-O´Sullivan
-O´Toole
+O'Brien
+O'Callaghan
+O'Connell
+O'Connor
+O'Donnell
+O'Donoghue
+O'Dowd
+O'Driscoll
+O'Dwyer
+O'Gorman
+O'Halloran
+O'Hara
+O'Keefe
+O'Keeffe
+O'Konor
+O'Leary
+O'Loughlin
+O'Mahony
+O'Malley
+O'Neill
+O'Regan
+O'Reilly
+O'Rourke
+O'Shea
+O'Sullivan
+O'Toole
 Oad
 Oancea
 Oanes
@@ -70752,7 +70671,6 @@ Ponce
 Ponce De Leon
 Pondro
 Ponga
-PongraczSzentmiklosO
 Pongratz
 Poniatowski
 Ponjevic
@@ -73381,7 +73299,6 @@ Reinhold
 Reinholds
 Reinholdson
 Reinholdsson
-ReinholdssonRosengre
 Reinholdt
 Reinholdtsen
 Reinholdz
@@ -76958,8 +76875,6 @@ Röök
 Röör
 Röös
 Rööst
-S:T Clair Renard
-S:T Cyr
 Saab
 Saabye
 Saad
@@ -78257,7 +78172,6 @@ Sannö
 Sano
 Sanogo
 Sansone
-SANT
 Santa
 Santaella
 Santala
@@ -80336,7 +80250,6 @@ Shahin
 Shahine
 Shahini
 Shahinyan
-Shahmohammadi Kalkh.
 Shahmoradi
 Shahnavaz
 Shahnavazi
@@ -81408,7 +81321,6 @@ Simonsbacka
 Simonsen
 Simonson
 Simonsson
-SimonssonTorstensson
 Simonyan
 Simovic
 Simovski
@@ -82583,7 +82495,6 @@ Smajic
 Smajilovic
 Smajlagic
 Smajli
-SMAJLOVIC
 Smajovic
 Smakic
 Smakolli
@@ -84011,7 +83922,6 @@ Stefenson
 Steffansson
 Steffen
 Steffenburg
-SteffenburgNordenstr
 Steffenrud
 Steffens
 Steffensen
@@ -91421,7 +91331,6 @@ Tupasela
 Tuppela
 Tuppurainen
 Tuqaj
-TURA
 Turaani
 Turab
 Turai
@@ -93866,7 +93775,6 @@ van Lunteren
 Van Mameren
 Van Manen
 Van Mansvelt
-VAN MIERLO
 Van Nes
 Van Niekerk
 Van Noort
@@ -93961,7 +93869,6 @@ Wangerud
 Wangerås
 Wangeskog
 Wangfelt
-VanGilseVan Der Pals
 Wangler
 Wanglin
 Wanglöf
@@ -98228,7 +98135,6 @@ Wolvén
 Wolving
 Womack
 Wombell
-von
 von Ahlefeld
 von Ahn
 von Almassy
@@ -98457,15 +98363,12 @@ Vong
 Wong
 Vongaribo
 Vongheer
-vonHausswolff Juhlin
-vonHausswolff-Juhlin
 Vonheim
 Vonk
 Vonkavaara
 Wonkavaara
 Vonsensey
 Vonstad
-vonZedtwitzLiebenste
 Woo
 Wood
 Woodall
@@ -100986,7 +100889,6 @@ Zuhair
 Zuhairi
 Zuhr
 Zuhric
-zuInnhausenundKnypha
 Zujalovic
 Zuk
 Zuka
