@@ -1,0 +1,21 @@
+{
+  "date": "2018-02-27",
+  "description": "Tilltalsnamn med minst 10 bärare bland folkbokförda 31 december respektive år 1999 - 2017, kvinnor",
+  "filename": "scb-firstnames-female-1999-2017.txt",
+  "link": "http://www.statistikdatabasen.scb.se/goto/sv/ssd/BE0001TNamn10",
+  "source": "SCB"
+}
+{
+  "date": "2018-02-27",
+  "description": "Tilltalsnamn med minst 10 bärare bland folkbokförda 31 december respektive år 1999 - 2017, män",
+  "filename": "scb-firstnames-male-1999-2017.txt",
+  "link": "http://www.statistikdatabasen.scb.se/goto/sv/ssd/BE0001TNamn10",
+  "source": "SCB"
+}
+{
+  "date": "2018-02-27",
+  "description": "Efternamn med minst 10 bärare bland folkbokförda 31 december respektive år 1999 - 2017",
+  "filename": "scb-lastnames-1999-2017.txt",
+  "link": "http://www.statistikdatabasen.scb.se/goto/sv/ssd/BE0001ENamn10",
+  "source": "SCB"
+}

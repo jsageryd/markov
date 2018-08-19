@@ -1,17 +1,46 @@
-# Markov
+# namegen (package)
 
-[![Build Status](https://travis-ci.com/jsageryd/markov.svg?branch=master)](https://travis-ci.com/jsageryd/markov)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jsageryd/markov)](https://goreportcard.com/report/github.com/jsageryd/markov)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/jsageryd/markov/namegen)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](#)
 
-Markov chains with configurable order and random seed.
+This package uses Markov chains to generate random names.
 
-## Packages
-- **[markov](markov)** generates string sequences
-- **[namegen](namegen)** generates names
+## Installation
+```
+go get -u -v github.com/jsageryd/markov/namegen
+```
 
-## Command-line tools
-- **[cmd/markov](cmd/markov)**
+## Usage
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/jsageryd/markov/namegen"
+)
+
+func main() {
+	fmt.Println("female:", namegen.FemaleFirstName(), namegen.LastName())
+	fmt.Println("  male:", namegen.MaleFirstName(), namegen.LastName())
+}
+```
+```
+female: Marminella Kiwo
+  male: Tem Lohanni
+```
+
+## Data
+The input data for the name generators has been obtained from
+[SCB (Statistika Centralbyrån)](https://www.scb.se/).
+
+### Male and female names
+- Tilltalsnamn med minst 10 bärare bland folkbokförda 31 december respektive år 1999 - 2017
+- http://www.statistikdatabasen.scb.se/goto/sv/ssd/BE0001TNamn10
+
+### Lastnames
+- Efternamn med minst 10 bärare bland folkbokförda 31 december respektive år 1999 - 2017
+- http://www.statistikdatabasen.scb.se/goto/sv/ssd/BE0001ENamn10
 
 ## License
 Copyright (c) 2018 Johan Sageryd <j@1616.se>
