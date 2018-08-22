@@ -3,7 +3,8 @@
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/jsageryd/markov/fake)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](#)
 
-This package uses Markov chains to generate random names.
+This package uses Markov chains to generate random names. Names that exist in
+the input data are never returned.
 
 ## Installation
 ```
