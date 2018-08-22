@@ -8,7 +8,7 @@ Markov chains with configurable order and random seed.
 
 ## Packages
 - **[markov](markov)** generates string sequences
-- **[namegen](namegen)** generates names
+- **[fake](fake)** generates names
 
 ## Command-line tools
 - **[cmd/markov](cmd/markov)**

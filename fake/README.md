@@ -1,13 +1,13 @@
-# namegen (package)
+# fake (package)
 
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/jsageryd/markov/namegen)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/jsageryd/markov/fake)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](#)
 
 This package uses Markov chains to generate random names.
 
 ## Installation
 ```
-go get -u -v github.com/jsageryd/markov/namegen
+go get -u -v github.com/jsageryd/markov/fake
 ```
 
 ## Usage
@@ -17,12 +17,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/jsageryd/markov/namegen"
+	"github.com/jsageryd/markov/fake"
 )
 
 func main() {
-	fmt.Println("female:", namegen.FemaleFirstName(), namegen.LastName())
-	fmt.Println("  male:", namegen.MaleFirstName(), namegen.LastName())
+	fmt.Println("female:", fake.FemaleFirstName(), fake.LastName())
+	fmt.Println("  male:", fake.MaleFirstName(), fake.LastName())
 }
 ```
 ```

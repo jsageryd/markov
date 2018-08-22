@@ -1,5 +1,5 @@
-// Package namegen uses Markov chains to generate random names
-package namegen
+// Package fake uses Markov chains to generate random names
+package fake
 
 import "strings"
 
