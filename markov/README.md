@@ -11,6 +11,7 @@ go get -u -v github.com/jsageryd/markov/markov
 ```
 
 ## Usage
+### Words
 ```go
 package main
 
@@ -45,6 +46,7 @@ antelope
 alligatross
 ```
 
+### Sentences
 ```go
 package main
 
