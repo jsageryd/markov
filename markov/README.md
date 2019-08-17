@@ -82,7 +82,7 @@ I've no name.
 ```
 
 ## License
-Copyright (c) 2018 Johan Sageryd <j@1616.se>
+Copyright (c) 2018-2019 Johan Sageryd <j@1616.se>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
