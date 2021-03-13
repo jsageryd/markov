@@ -5,11 +5,6 @@
 
 This package generates markov string sequences.
 
-## Installation
-```
-go get -u -v github.com/jsageryd/markov/markov
-```
-
 ## Usage
 ### Words
 ```go

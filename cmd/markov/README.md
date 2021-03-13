@@ -7,7 +7,7 @@ string input.
 
 ## Installation
 ```
-go get -u -v github.com/jsageryd/markov/cmd/markov
+go install github.com/jsageryd/markov/cmd/markov@latest
 ```
 
 ## Usage

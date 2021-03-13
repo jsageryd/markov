@@ -1,10 +1,10 @@
 language: go
 
 go:
-  - "1.12.9"
+  - "1.16"
 
 install:
-  - go get golang.org/x/lint/golint
+  - go install golang.org/x/lint/golint@latest
 
 script:
   - go list ./... | xargs -n1 golint -set_exit_status
