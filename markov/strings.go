@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-const sep = string(0x00)
+const sep = string(rune(0x00))
 
 // StringsChain is a Markov chain of strings.
 type StringsChain struct {
