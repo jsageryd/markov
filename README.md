@@ -1,6 +1,6 @@
 # Markov
 
-[![Build Status](https://travis-ci.com/jsageryd/markov.svg?branch=master)](https://travis-ci.com/jsageryd/markov)
+[![Build status](https://github.com/jsageryd/markov/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jsageryd/markov/actions/workflows/ci.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jsageryd/markov)](https://goreportcard.com/report/github.com/jsageryd/markov)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](#)
 
