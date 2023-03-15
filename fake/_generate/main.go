@@ -5,7 +5,6 @@ import (
 	"bytes"
 	"encoding/base64"
 	"go/format"
-	"io/ioutil"
 	"log"
 	"os"
 	"strings"
@@ -93,7 +92,7 @@ func init() {
 		log.Fatal(err)
 	}
 
-	if err := ioutil.WriteFile("gen.go", b, 0644); err != nil {
+	if err := os.WriteFile("gen.go", b, 0644); err != nil {
 		log.Fatal(err)
 	}
 }
