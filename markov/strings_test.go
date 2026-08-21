@@ -182,7 +182,7 @@ func ExampleStringsChain_sentences() {
 		c.Feed(strings.Split(s, " "))
 	}
 
-	for n := 0; n < 3; n++ {
+	for range 3 {
 		fmt.Println(strings.Join(c.Generate(), " "))
 	}
 
@@ -205,7 +205,7 @@ func ExampleStringsChain_words() {
 		c.Feed(strings.Split(s, ""))
 	}
 
-	for n := 0; n < 3; n++ {
+	for range 3 {
 		fmt.Println(strings.Join(c.Generate(), ""))
 	}
 

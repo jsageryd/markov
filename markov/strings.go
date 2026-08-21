@@ -121,14 +121,14 @@ func (c *StringsChain) ImportState(r io.Reader) error {
 
 	for k, v := range s.Starters {
 		x := strings.Split(k, sep)
-		for n := 0; n < v; n++ {
+		for range v {
 			c.starters = append(c.starters, x)
 		}
 	}
 
 	for k, v := range s.Transitions {
 		for kk, vv := range v {
-			for n := 0; n < vv; n++ {
+			for range vv {
 				c.transitions[k] = append(c.transitions[k], kk)
 			}
 		}
