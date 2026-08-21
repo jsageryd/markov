@@ -1,3 +1,3 @@
 module github.com/jsageryd/markov
 
-go 1.21.0
+go 1.27.0
